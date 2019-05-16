@@ -1,0 +1,16 @@
+.rp-c-programme-details {
+  color: $color-programme-detail-text;
+
+  &__short-synopsis {
+    color: $color-programme-detail-synopsis;
+  }
+
+  &__schedule {
+    color: $color-programme-detail-text;
+    text-decoration-line: none;
+
+    &:hover {
+      color: $color-programme-detail-text-hover;
+    }
+  }
+}

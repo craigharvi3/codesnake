@@ -1,0 +1,71 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+form,
+fieldset,
+legend,
+figure,
+table,
+th,
+td,
+caption,
+hr {
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3 {
+  font-weight: inherit; }
+
+body {
+  font-weight: normal; }
+
+.radioplayer {
+  max-width: 400px; }
+
+.radioplayer-head {
+  height: 62px; }
+
+.rp-c-programme-details {
+  color: #fff; }
+  .rp-c-programme-details__short-synopsis {
+    color: #bebebe; }
+  .rp-c-programme-details__schedule {
+    color: #fff;
+    text-decoration-line: none; }
+    .rp-c-programme-details__schedule:hover {
+      color: #ff4900; }
+
+.rp-error-page {
+  color: #646464; }
+  .rp-error-page a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.35s ease; }
+    .rp-error-page a:hover, .rp-error-page a:focus {
+      color: #ff4900; }
+  .rp-error-page h1,
+  .rp-error-page h2 {
+    color: #000; }
+  .rp-error-page img {
+    width: 55px; }
+  .rp-error-page__list-item {
+    list-style: none; }
+  .rp-error-page__horizontal-rule {
+    width: 24px;
+    height: 2px;
+    background-color: #ff4900;
+    border: 0; }
+

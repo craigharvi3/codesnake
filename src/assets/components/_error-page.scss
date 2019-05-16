@@ -1,0 +1,33 @@
+.rp-error-page {
+  color: $color-error-page-text;
+
+  a {
+    color: $color-error-page-heading;
+    text-decoration: none;
+    transition: color 0.35s ease;
+    &:hover,
+    &:focus {
+      color: $color-error-page-hover;
+    }
+  }
+
+  h1,
+  h2 {
+    color: $color-error-page-heading;
+  }
+
+  img {
+    width: 55px;
+  }
+
+  &__list-item {
+    list-style: none;
+  }
+
+  &__horizontal-rule {
+    width: 24px;
+    height: 2px;
+    background-color: $color-error-page-horizontal-rule;
+    border: 0;
+  }
+}
